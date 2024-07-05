@@ -17,7 +17,11 @@
     ></script>
 </head>
 <body>
-<!--    <header></header>-->
+    <header
+            data-hx-trigger="load"
+            data-hx-swap="outerHTML"
+            data-hx-get="index.header.partial.html"
+    ></header>
     <div class="features">
         <div class="description"></div>
         <div>video + 3 elems</div>
@@ -58,6 +62,10 @@
         <div class="description"></div>
         <div class="reverse-responsive"></div>
     </div>
-<!--    <footer></footer>-->
+    <footer
+            data-hx-trigger="load"
+            data-hx-swap="outerHTML"
+            data-hx-get="general.footer.partial.html"
+    ></footer>
 </body>
 </html>
