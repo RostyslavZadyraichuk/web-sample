@@ -11,3 +11,13 @@
 @import "index.pricing.css";
 @import "index.contacts.css";
 @import "global.footer.css";
+
+.header {
+    height: 650px;
+    padding: 5px;
+    position: relative;
+    background-image: url("../img/index/header-hero.png");
+    background-size: cover;
+    background-position-x: 50%;
+    background-clip: padding-box;
+}

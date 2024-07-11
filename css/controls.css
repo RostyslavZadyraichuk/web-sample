@@ -1,4 +1,5 @@
 .button {
+    display: block;
     height: 30px;
     background-color: var(--accent-color);
     color: var(--text-light-color);
