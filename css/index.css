@@ -20,7 +20,22 @@
     color: var(--text-light-color);
 }
 
-.features {
+.features,
+.try-trial,
+.subscription,
+.partners,
+.testimonials,
+.contacts {
     background-color: var(--background-light-color);
     color: var(--text-dark-color);
+}
+
+.pricing,
+.footer {
+    background-color: var(--background-dark-color);
+    color: var(--text-light-color);
+}
+
+.footer {
+    padding: 20px 40px 50px 40px;
 }

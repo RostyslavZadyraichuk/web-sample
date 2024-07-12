@@ -52,7 +52,7 @@
     }
 
     .features-content__features-list {
-        margin: 55px 0 100px 0;
+        margin-top: 55px;
         display: flex;
         flex-direction: column;
         align-items: center;

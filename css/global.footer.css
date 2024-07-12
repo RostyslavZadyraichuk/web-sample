@@ -1,21 +1,14 @@
-.footer {
-    padding: 20px 40px 50px 40px;
-    background-color: var(--background-dark-color);
-}
-
 .footer__info {
     margin: 50px auto 0 auto;
 
     .footer-info__title {
         font-weight: bold;
-        color: var(--text-light-color);
         text-align: center;
     }
 
     .footer-info__item {
         font-size: 0.7rem;
         font-weight: 100;
-        color: var(--text-light-color);
         text-align: center;
         margin-top: 20px;
     }
