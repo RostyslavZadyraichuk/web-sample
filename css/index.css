@@ -27,12 +27,14 @@
 .testimonials,
 .contacts {
     background-color: var(--background-light-color);
+    background-clip: padding-box;
     color: var(--text-dark-color);
 }
 
 .pricing,
 .footer {
     background-color: var(--background-dark-color);
+    background-clip: padding-box;
     color: var(--text-light-color);
 }
 
