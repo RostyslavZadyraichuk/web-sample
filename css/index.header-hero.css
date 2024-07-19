@@ -8,23 +8,9 @@
     /*}*/
 }
 
-.header-hero__paragraph {
-    width: 285px;
-    margin: 6px auto 0 auto;
-    font-family: Montserrat, sans-serif;
-    font-size: 1.75rem;
-    font-weight: 400;
-    text-align: center;
-    line-height: 2.5rem;
-
-    .header-hero__paragraph-toggle {
-        display: none;
-    }
-}
-
 .header-hero__title {
     width: 353px;
-    margin: 80px auto 0 auto;
+    margin: 90px auto 0 auto;
     font-family: Montserrat, sans-serif;
     font-size: 3rem;
     font-weight: 400;
@@ -32,10 +18,24 @@
     text-align: center;
 }
 
+.header-hero__paragraph {
+    width: 285px;
+    margin: 27px auto 0 auto;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.75rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.header-hero__paragraph-toggle {
+    display: none;
+}
+
 .header-hero__try-btn {
     width: 236px;
     height: 52px;
-    margin: 60px auto 267px auto;
+    margin: 70px auto 267px auto;
     font-family: Montserrat, sans-serif;
     font-size: 1.25rem;
     font-weight: 400;
@@ -49,17 +49,17 @@
     bottom: 0;
     display: flex;
     justify-content: space-between;
+}
 
-    .header-corners__corner {
-        width: 40%;
-        background-color: var(--background-light-color);
+.header-corners__corner {
+    width: 40%;
+    background-color: var(--background-light-color);
 
-        &:first-child {
-            clip-path: polygon(0 0, 0 100%, 100% 100%);
-        }
+    &:first-child {
+        clip-path: polygon(0 0, 0 100%, 100% 100%);
+    }
 
-        &:last-child {
-            clip-path: polygon(0 100%, 100% 100%, 100% 0);
-        }
+    &:last-child {
+        clip-path: polygon(0 100%, 100% 100%, 100% 0);
     }
 }
