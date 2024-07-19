@@ -9,11 +9,13 @@
 }
 
 .header-hero__paragraph {
-    width: 220px;
-    margin: 20px auto 0 auto;
-    font-size: 1.4rem;
+    width: 285px;
+    margin: 6px auto 0 auto;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.75rem;
+    font-weight: 400;
     text-align: center;
-    line-height: 2rem;
+    line-height: 2.5rem;
 
     .header-hero__paragraph-toggle {
         display: none;
@@ -21,17 +23,22 @@
 }
 
 .header-hero__title {
-    width: 280px;
-    margin: 50px auto 0 auto;
-    font-size: 2.4rem;
-    font-weight: 100;
+    width: 353px;
+    margin: 80px auto 0 auto;
+    font-family: Montserrat, sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 3.4rem;
     text-align: center;
 }
 
 .header-hero__try-btn {
-    width: 170px;
-    height: 38px;
-    margin: 50px auto 236px auto;
+    width: 236px;
+    height: 52px;
+    margin: 60px auto 267px auto;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
 }
 
 .header-hero__corners {

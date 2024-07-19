@@ -1,5 +1,5 @@
 .header__header-nav {
-    height: 50px;
+    height: 78px;
     display: flex;
     align-items: center;
 
@@ -15,12 +15,13 @@
     z-index: 10;
 
     .header-nav__logo-image {
-        width: 140px;
+        width: 186px;
     }
 
     .header-nav__burger {
-        width: 20px;
-        height: 13px;
+        width: 40px;
+        height: 32px;
+        padding: 8px 7px;
         display: flex;
         flex-direction: column;
         align-items: end;
@@ -28,7 +29,7 @@
         background-color: transparent;
 
         .header-burger__line {
-            height: 1px;
+            height: 2px;
             background-color: var(--text-light-color);
 
             &:first-child {
