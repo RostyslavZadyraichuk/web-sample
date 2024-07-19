@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-light-color: white;
+    --text-dark-color: #252b42;
+    --background-light-color: white;
+    --background-dark-color: #252b42;
+    --accent-color: #2091f9;
+
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+a,
+a:hover,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.general-section {
+    padding: 5px;
+    position: relative;
+}

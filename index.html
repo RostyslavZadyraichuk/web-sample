@@ -1,71 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zadyraichuk Sample</title>
     <link
-            rel="shortcut icon"
-            href="https://placekitten.com/96/139"
-            type="image/x-icon"
+      rel="shortcut icon"
+      href="https://placekitten.com/96/139"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="css/index.css"
+      type="text/css"
     />
     <script
-            src="https://unpkg.com/htmx.org@1.9.10"
-            integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
-            crossorigin="anonymous"
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
     ></script>
-</head>
-<body>
-    <header
-            data-hx-trigger="load"
-            data-hx-swap="outerHTML"
-            data-hx-get="index.header.partial.html"
-    ></header>
-    <div class="features">
-        <div class="description"></div>
-        <div>video + 3 elems</div>
-    </div>
-    <div class="try-trial">
-        <div>
-            <div class="description"></div>
-            <button></button>
-        </div>
-        <div>
-            <img src="" alt="">
-        </div>
-    </div>
-    <div class="subscription">
-        <div class="description"></div>
-        <div>
-            <img src="" alt="">
-        </div>
-        <div>
-            <div class="description"></div>
-            <form action=""></form>
-        </div>
-    </div>
-    <div class="partners">
-        <div class="description"></div>
-        <div id="partners-grid"></div>
-        <button></button>
-    </div>
-    <div class="testimonials">
-        <div class="slider"></div>
-        <button></button>
-    </div>
-    <div class="pricing">
-        <div class="description"></div>
-        <div id="price-selector"></div>
-    </div>
-    <div class="contacts">
-        <div class="description"></div>
-        <div class="reverse-responsive"></div>
-    </div>
+  </head>
+  <body>
+    <header class="header general-section">
+      <nav
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.header-nav.partial.html"
+      ></nav>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.header-hero.partial.html"
+      ></section>
+    </header>
+    <main>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.features.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.try-trial.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.subscription.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.partners.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.testimonials.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.pricing.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.contacts.partial.html"
+      ></section>
+    </main>
     <footer
-            data-hx-trigger="load"
-            data-hx-swap="outerHTML"
-            data-hx-get="general.footer.partial.html"
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="global.footer.partial.html"
     ></footer>
-</body>
+  </body>
 </html>

@@ -1,0 +1,43 @@
+@import "global.css";
+@import "controls.css";
+
+@import "global.header-nav.css";
+@import "index.header-hero.css";
+@import "index.features.css";
+@import "index.try-trial.css";
+@import "index.subscription.css";
+@import "index.partners.css";
+@import "index.testimonials.css";
+@import "index.pricing.css";
+@import "index.contacts.css";
+@import "global.footer.css";
+
+.header {
+    background-image: url("../img/index/header-hero.png");
+    background-size: cover;
+    background-position-x: 50%;
+    background-clip: padding-box;
+    color: var(--text-light-color);
+}
+
+.features,
+.try-trial,
+.subscription,
+.partners,
+.testimonials,
+.contacts {
+    background-color: var(--background-light-color);
+    background-clip: padding-box;
+    color: var(--text-dark-color);
+}
+
+.pricing,
+.footer {
+    background-color: var(--background-dark-color);
+    background-clip: padding-box;
+    color: var(--text-light-color);
+}
+
+.footer {
+    padding: 20px 40px 50px 40px;
+}
