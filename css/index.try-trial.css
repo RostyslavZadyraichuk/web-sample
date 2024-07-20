@@ -6,32 +6,21 @@
 .try-trial__title {
     margin-top: 60px;
     padding: 0 15px;
-    font-size: 3rem;
-    font-weight: 400;
-    line-height: 3.4rem;
-    text-align: center;
 }
 
-.try-trial__paragraph {
+.try-trial__subtitle {
     margin-top: 27px;
     padding: 0 45px;
-    font-size: 1.75rem;
-    font-weight: 400;
-    line-height: 2.5rem;
     color: var(--text-semi-dark-color);
-    text-align: center;
 }
 
-.try-trial__paragraph--toggle {
+.try-trial__subtitle--toggle {
     display: none;
 }
 
 .try-trial__try-btn {
     width: 53%;
     height: 60px;
-    font-size: 1.25rem;
-    font-weight: 700;
-    line-height: 1.75rem;
     margin: 70px auto 0 auto;
 }
 

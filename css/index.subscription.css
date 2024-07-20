@@ -1,83 +1,65 @@
 .subscription {
+    margin-top: 108px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.subscription__description {
-    margin-top: 120px;
-
-    .subscription-description__paragraph-bold {
-        font-weight: bold;
-        text-align: center;
-    }
-
-    .subscription-description__title {
-        font-size: 2.2rem;
-        font-weight: lighter;
-        margin-top: 10px;
-        text-align: center;
-    }
-
-    .subscription-description__paragraph {
-        font-size: 1.2rem;
-        letter-spacing: 1px;
-        margin-top: 15px;
-        text-align: center;
-    }
+.subscription-description__title {
+    margin-top: 17px;
 }
 
-.subscription-content {
+.subscription-description__subtitle {
+    margin-top: 27px;
+    color: var(--text-semi-dark-color);
+}
+
+.subscription__content {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-top: 95px;
+}
 
-    .subscription-content__image {
-        margin-top: 50px;
-        width: 95%;
-        height: 200px;
-        background-color: black;
+.subscription-content__image {
+    width: 104%;
+}
+
+.subscription-content__container {
+    width: 100%;
+    margin-top: 80px;
+    padding: 10px;
+}
+
+.subscription-content__description {
+    display: none;
+}
+
+.subscription-additional-info__paragraph {
+    margin-top: 10px;
+}
+
+.subscription-content__form {
+    margin-top: 10px;
+    padding: 24px 0;
+
+    & > * {
+        width: 100%;
+        height: 54px;
+        display: block;
     }
+}
 
-    .subscription-content__description {
-        display: none;
-    }
+.subscription-form__email-input {
+    font-size: 0.85rem;
+    padding: 0 35px;
+}
 
-    .subscription-content__additional-info {
-        margin-top: 70px;
-
-        .subscription-additional-info__paragraph-bold {
-            font-weight: bold;
-            text-align: center;
-        }
-
-        .subscription-additional-info__paragraph {
-            font-size: 0.9rem;
-            margin-top: 10px;
-            text-align: center;
-        }
-    }
-
-    .subscription-content__form {
-        margin-top: 20px;
-
-        & > * {
-            display: block;
-            height: 40px;
-            width: 280px;
-        }
-
-        .subscription-form__email-input {
-            font-size: 0.7rem;
-            padding: 0 25px;
-        }
-
-        .subscription-form__submit {
-            margin-top: 7px;
-            font-size: 1.1rem;
-            text-align: center;
-        }
-
-    }
+.subscription-form__submit {
+    margin-top: 12px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    text-align: center;
 }

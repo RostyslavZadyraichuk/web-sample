@@ -1,22 +1,18 @@
+.header__header-hero {
+    color: var(--text-light-color);
+}
+
 .header-hero__title {
     margin-top: 60px;
-    font-size: 3rem;
-    font-weight: 400;
-    line-height: 3.4rem;
-    text-align: center;
     padding: 0 18px;
 }
 
-.header-hero__paragraph {
+.header-hero__subtitle {
     margin-top: 27px;
-    font-size: 1.75rem;
-    font-weight: 400;
-    text-align: center;
-    line-height: 2.5rem;
     padding: 0 32px;
 }
 
-.header-hero__paragraph-toggle {
+.header-hero__subtitle-toggle {
     display: none;
 }
 
@@ -25,7 +21,6 @@
     height: 52px;
     margin: 70px auto 0 auto;
     font-size: 1.25rem;
-    font-weight: 400;
 }
 
 .header-hero__corners {
@@ -34,6 +29,7 @@
     margin-top: calc(267px - 20vw);
     display: flex;
     justify-content: space-between;
+    transform: translateY(1px);
 }
 
 .header-corners__corner {
