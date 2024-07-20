@@ -1,7 +1,5 @@
 .header-hero__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    padding: 30px 20px;
 
     /*& > * {*/
     /*    flex-grow: 1;*/
@@ -9,21 +7,21 @@
 }
 
 .header-hero__title {
-    width: 353px;
-    margin: 90px auto 0 auto;
+    margin-top: 60px;
     font-size: 3rem;
     font-weight: 400;
     line-height: 3.4rem;
     text-align: center;
+    padding: 0 18px;
 }
 
 .header-hero__paragraph {
-    width: 285px;
-    margin: 27px auto 0 auto;
+    margin-top: 27px;
     font-size: 1.75rem;
     font-weight: 400;
     text-align: center;
     line-height: 2.5rem;
+    padding: 0 32px;
 }
 
 .header-hero__paragraph-toggle {
@@ -31,9 +29,9 @@
 }
 
 .header-hero__try-btn {
-    width: 236px;
+    width: 65%;
     height: 52px;
-    margin: 70px auto 267px auto;
+    margin: 70px auto 0 auto;
     font-size: 1.25rem;
     font-weight: 400;
 }
@@ -41,9 +39,7 @@
 .header-hero__corners {
     width: 100%;
     height: 20vw;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    margin-top: calc(267px - 20vw);
     display: flex;
     justify-content: space-between;
 }
