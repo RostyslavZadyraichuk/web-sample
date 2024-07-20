@@ -1,11 +1,3 @@
-.header-hero__container {
-    padding: 30px 20px;
-
-    /*& > * {*/
-    /*    flex-grow: 1;*/
-    /*}*/
-}
-
 .header-hero__title {
     margin-top: 60px;
     font-size: 3rem;
@@ -29,7 +21,7 @@
 }
 
 .header-hero__try-btn {
-    width: 65%;
+    width: 53%;
     height: 52px;
     margin: 70px auto 0 auto;
     font-size: 1.25rem;
