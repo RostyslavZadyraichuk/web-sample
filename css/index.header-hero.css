@@ -1,5 +1,6 @@
 .header__header-hero {
     color: var(--text-light-color);
+    padding-bottom: 267px;
 }
 
 .header-hero__title {
@@ -26,9 +27,11 @@
 .header-hero__corners {
     width: 100%;
     height: 20vw;
-    margin-top: calc(267px - 20vw);
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    left: 0;
     transform: translateY(1px);
 }
 

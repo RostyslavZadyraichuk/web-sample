@@ -3,4 +3,5 @@
     background-size: cover;
     background-position-x: 50%;
     background-clip: padding-box;
+    position: relative;
 }
