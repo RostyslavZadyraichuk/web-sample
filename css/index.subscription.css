@@ -1,8 +1,11 @@
 .subscription {
-    margin-top: 108px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.subscription__description {
+    margin-top: 40px;
 }
 
 .subscription-description__title {
@@ -41,6 +44,7 @@
 
 .subscription-content__form {
     margin-top: 10px;
+    margin-bottom: 74px;
     padding: 24px 0;
 
     & > * {

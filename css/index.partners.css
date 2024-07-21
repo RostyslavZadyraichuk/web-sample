@@ -1,5 +1,5 @@
 .partners-description__title {
-    margin-top: 80px;
+    margin-top: 6px;
 }
 
 .partners-description__subtitle {
@@ -39,7 +39,7 @@
 }
 
 .partners__try-btn {
-    margin: 100px auto 0 auto;
+    margin: 100px auto 20px auto;
     padding: 0 70px;
     height: 60px;
 }

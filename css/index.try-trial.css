@@ -1,6 +1,5 @@
 .try-trial {
     padding: 30px 20px;
-    margin-top: 98px;
 }
 
 .try-trial__title {
@@ -25,7 +24,7 @@
 
 .try-trial__service-image {
     display: block;
-    margin: 60px auto 0 auto;
+    margin: 60px auto 68px auto;
     width: 90%;
     height: 200px;
 }
