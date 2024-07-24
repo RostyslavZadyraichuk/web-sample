@@ -3,9 +3,14 @@
     padding-bottom: 267px;
 }
 
+.header-hero__container {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
 .header-hero__title {
     margin-top: 60px;
-    padding: 0 18px;
+    padding: 0 23px;
 }
 
 .header-hero__subtitle {
@@ -18,7 +23,7 @@
 }
 
 .header-hero__try-btn {
-    width: 53%;
+    width: 236px;
     height: 52px;
     margin: 70px auto 0 auto;
 }
@@ -44,5 +49,28 @@
 
     &:last-child {
         clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    }
+}
+
+@media (min-width: 768px) {
+    .header-hero__title {
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 4.5rem;
+    }
+
+    .header-hero__subtitle {
+        padding: 0;
+    }
+
+    .header-hero__subtitle-toggle {
+        display: inline;
+    }
+}
+
+@media (min-width: 1000px) {
+    .header-hero__title {
+        font-size: 4.6rem;
+        line-height: 5.25rem;
     }
 }
