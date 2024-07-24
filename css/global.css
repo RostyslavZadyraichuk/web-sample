@@ -42,6 +42,10 @@ ol {
     list-style: none;
 }
 
+.overflow-hidden {
+    overflow: hidden;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
