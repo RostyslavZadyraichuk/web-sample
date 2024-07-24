@@ -1,58 +1,69 @@
 .footer {
-    padding: 20px 40px 50px 40px;
+    padding: 107px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 76px;
 }
 
-.footer__info {
-    margin: 50px auto 0 auto;
+.footer__info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
 
-    .footer-info__title {
-        font-weight: bold;
-        text-align: center;
-    }
+.footer-info-item__paragraph-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    gap: 16px
+}
 
-    .footer-info__item {
-        font-size: 0.7rem;
-        font-weight: 100;
-        text-align: center;
-        margin-top: 20px;
+.footer-info-item__paragraph {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+
+.footer-contacts__location,
+.footer-contacts__phone {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    margin-bottom: 10px;
+
+    svg {
+        width: 46px;
+        height: 46px;
+        padding: 0 6px;
+        fill: var(--text-light-color);
     }
 }
 
-.footer__contacts {
-    margin: 50px auto 0 auto;
+.footer-location__paragraph,
+.footer-phone__paragraph {
+    font-family: Roboto, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
 
-    .footer-contacts__location,
-    .footer-contacts__phone {
-        display: flex;
-        align-items: center;
-        margin-bottom: 10px;
+.footer-contacts__socials {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
 
-        .footer-location__paragraph,
-        .footer-phone__paragraph {
-            margin-left: 10px;
-            font-size: 0.7rem;
-            font-weight: 100;
-        }
+.footer-socials__social-item {
+    width: 40px;
+    padding: 4px;
 
-        .footer-location__image {
-            width: 46px;
-            fill: var(--text-light-color);
-        }
-
-        .footer-phone__image {
-            width: 35px;
-            fill: var(--text-light-color);
-        }
-    }
-
-    .footer-contacts__socials {
-        display: flex;
-        justify-content: center;
-        gap: 24px;
-
-        .footer-socials__image {
-            width: 41px;
-            fill: var(--text-light-color);
-        }
+    svg {
+        width: 100%;
+        fill: var(--text-light-color);
     }
 }

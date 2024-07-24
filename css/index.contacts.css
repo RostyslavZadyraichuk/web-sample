@@ -19,15 +19,15 @@
 .contacts-socials__social-item {
     width: 40px;
     padding: 4px;
-}
 
-.contacts-socials__image {
-    width: 100%;
-    fill: var(--accent-color);
+    svg {
+        width: 100%;
+        fill: var(--accent-color);
+    }
 }
 
 .contacts-information__contacts {
-    padding: 18px 5px;
+    padding: 18px 5px 18px 10px;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -39,14 +39,14 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-}
 
-.contacts-contact-item__image {
-    width: 36px;
-    padding-right: 10px;
-    flex-grow: 0;
-    flex-shrink: 0;
-    fill: var(--accent-color);
+    svg {
+        width: 40px;
+        padding-right: 10px;
+        flex-grow: 0;
+        flex-shrink: 0;
+        fill: var(--accent-color);
+    }
 }
 
 .contacts-contact-item__paragraph {
