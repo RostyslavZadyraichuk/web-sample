@@ -1,5 +1,10 @@
 .features {
-    margin-bottom: 98px;
+    padding-bottom: 98px;
+}
+
+.features__description {
+    max-width: 630px;
+    margin: 0 auto;
 }
 
 .features__title {
@@ -17,13 +22,28 @@
 
 .features__content {
     margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .features-content__video-section {
-    height: 216px;
+    width: 92vw;
+    min-width: 290px;
+    max-width: 1200px;
+    height: 50vw;
+    min-height: 160px;
+    max-height: 660px;
     margin: 0 auto;
     position: relative;
-    padding: 0 16px;
+
+    background-image: url("../img/index/features-video-mobile.jpg");
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 70%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    transition: background-image s ease-in-out;
 }
 
 .video-section__play-btn {
@@ -40,13 +60,6 @@
     path {
         fill: var(--background-light-color);
     }
-}
-
-.video-section__preview-image {
-    height: 100%;
-    object-fit: cover;
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
 .features-content__features-list {
@@ -83,4 +96,45 @@
     padding: 0 20px;
     color: var(--text-semi-dark-color);
     text-align: center;
+}
+
+@media (min-width: 768px) {
+    .features {
+        padding-bottom: 52px;
+    }
+
+    .features__subtitle--toggle {
+        display: inline;
+    }
+    
+    .features__content {
+        margin-top: 80px;
+    }
+
+    .features-content__video-section {
+        margin-top: 132px;
+        order: 1;
+        background-image: url("../img/index/features-video-desktop.jpg");
+        transition: background-image 0.5s ease-in-out;
+    }
+
+    .video-section__play-btn {
+        top: calc(50% - 60px);
+        left: calc(50% - 60px);
+        width: 120px;
+    }
+
+    .features-content__features-list {
+        margin-top: 0;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .features-content__features-list {
+        gap: 52px;
+    }
 }
