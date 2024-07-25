@@ -2,6 +2,7 @@
     background-image: url("../img/index/header-hero.png");
     background-size: cover;
     background-position-x: 50%;
+    background-position-y: 90%;
     background-clip: padding-box;
     position: relative;
 }

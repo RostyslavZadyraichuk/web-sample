@@ -51,7 +51,7 @@
 
 .contacts-contact-item__paragraph {
     padding: 10px;
-    text-wrap: wrap;
+    word-break: break-word;
 }
 
 .contacts-container__form {

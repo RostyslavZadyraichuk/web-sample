@@ -15,7 +15,7 @@
 }
 
 .pricing-variants__variant {
-    width: 335px;
+    max-width: 335px;
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -49,7 +49,7 @@
 
 .pricing-variant__paragraph {
     margin-top: 3px;
-    padding: 0 50px;
+    padding: 0 30px;
     text-align: center;
 }
 
