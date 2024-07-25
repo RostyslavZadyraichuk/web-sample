@@ -28,7 +28,7 @@
     margin: 70px auto 0 auto;
 }
 
-.try-trial__service {
+.try-trial__service-image {
     width: 100%;
     max-width: 550px;
     margin: 60px auto 68px auto;
@@ -53,7 +53,7 @@
     }
 
     .try-trial__description,
-    .try-trial__service {
+    .try-trial__service-image {
         margin: 0;
     }
 
@@ -63,7 +63,7 @@
         text-align: start;
     }
 
-    .try-trial__service {
+    .try-trial__service-image {
         max-width: 625px;
         height: auto;
     }
