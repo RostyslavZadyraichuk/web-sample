@@ -1,4 +1,4 @@
-.footer {
+.footer__content {
     padding: 107px 60px;
     display: flex;
     flex-direction: column;
@@ -65,5 +65,27 @@
     svg {
         width: 100%;
         fill: var(--text-light-color);
+    }
+}
+
+@media (min-width: 768px) {
+    .footer__info-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer__content {
+        padding: 150px 0;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 125px;
+    }
+
+    .footer-contacts__socials {
+        justify-content: flex-start;
     }
 }
