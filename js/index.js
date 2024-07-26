@@ -1,5 +1,6 @@
 function init() {
     import("./header-nav.js");
+    import("./partners-generator.js");
     import("./testimonials-slider.js");
 }
 
