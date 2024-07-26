@@ -2,12 +2,18 @@
     margin-top: 90px;
 }
 
-.testimonials__list {
+.testimonials__list-container {
     width: 100%;
     margin-top: 90px;
     overflow: hidden;
+}
+
+.testimonials__list {
     display: flex;
     flex-wrap: nowrap;
+    position: relative;
+    left: 0;
+    transition: left 1s ease-in-out;
 
     & > * {
         flex-shrink: 0;
@@ -81,7 +87,7 @@
         margin-top: 80px;
     }
 
-    .testimonials-list {
+    .testimonials__list-container {
         margin-top: 80px;
     }
 
