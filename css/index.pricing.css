@@ -88,6 +88,12 @@
     .pricing-variant__btn {
         background-color: var(--background-light-color);
         color: var(--accent-color);
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+            background-color: var(--background-light-color-hover);
+            transition: all 0.2s ease-in-out;
+        }
     }
 }
 

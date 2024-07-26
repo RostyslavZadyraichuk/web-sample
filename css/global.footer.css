@@ -65,6 +65,16 @@
     svg {
         width: 100%;
         fill: var(--text-light-color);
+        transition: all 0.2s ease-in-out;
+    }
+
+    &:hover {
+        cursor: pointer;
+
+        svg {
+            fill: var(--background-light-color-hover-darker);
+            transition: all 0.2s ease-in-out;
+        }
     }
 }
 

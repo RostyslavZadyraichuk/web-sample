@@ -20,6 +20,11 @@
 
     --accent-color: #2091f9;
 
+    --accent-color-hover: #177fe0;
+    --accent-color-hover-darker: #1167b8;
+    --background-light-color-hover: #dfdfdf;
+    --background-light-color-hover-darker: #b1b1b1;
+
     scroll-behavior: smooth;
     font-family: Montserrat, sans-serif;
     min-width: 320px;

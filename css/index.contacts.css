@@ -37,6 +37,16 @@
     svg {
         width: 100%;
         fill: var(--accent-color);
+        transition: all 0.2s ease-in-out;
+    }
+
+    &:hover {
+        cursor: pointer;
+
+        svg {
+            fill: var(--accent-color-hover-darker);
+            transition: all 0.2s ease-in-out;
+        }
     }
 }
 

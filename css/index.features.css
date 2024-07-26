@@ -55,10 +55,20 @@
 
     circle {
         fill: var(--accent-color);
+        transition: all 0.2s ease-in-out;
     }
 
     path {
         fill: var(--background-light-color);
+    }
+
+    &:hover {
+        cursor: pointer;
+
+        circle {
+            fill: var(--accent-color-hover);
+            transition: all 0.2s ease-in-out;
+        }
     }
 }
 
