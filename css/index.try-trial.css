@@ -1,4 +1,4 @@
-.try-trial {
+.try-trial__container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,7 +45,7 @@
 }
 
 @media (min-width: 1024px) {
-    .try-trial {
+    .try-trial__container {
         padding: 270px 20px;
         flex-direction: row;
         justify-content: space-between;
@@ -74,7 +74,7 @@
 }
 
 @media (min-width: 1280px) {
-    .try-trial {
+    .try-trial__container {
         padding: 270px 0;
     }
 
