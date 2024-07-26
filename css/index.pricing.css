@@ -15,6 +15,7 @@
 }
 
 .pricing-variants__variant {
+    min-width: 280px;
     max-width: 335px;
     padding: 40px;
     display: flex;
@@ -24,21 +25,6 @@
     background-color: var(--background-light-color);
     border-radius: 10px;
     color: var(--text-dark-color);
-
-    &:nth-child(2) {
-        background-color: var(--accent-color);
-        color: var(--text-light-color);
-
-        .pricing-variant__paragraph,
-        .pricing-variant__frequency {
-            color: var(--text-light-color);
-        }
-
-        .pricing-variant__btn {
-            background-color: var(--background-light-color);
-            color: var(--accent-color);
-        }
-    }
 }
 
 .pricing-variant__paragraph,
@@ -88,4 +74,35 @@
     width: 100%;
     height: 56px;
     margin-top: 30px;
+}
+
+.pricing-variants__variant--accent {
+    background-color: var(--accent-color);
+    color: var(--text-light-color);
+
+    .pricing-variant__paragraph,
+    .pricing-variant__frequency {
+        color: var(--text-light-color);
+    }
+
+    .pricing-variant__btn {
+        background-color: var(--background-light-color);
+        color: var(--accent-color);
+    }
+}
+
+@media (min-width: 1024px) {
+    .pricing-description__title {
+        margin-top: 90px;
+    }
+
+    .pricing__variants {
+        margin: 90px auto 78px auto;
+        flex-direction: row;  
+        justify-content: center; 
+    } 
+
+    .pricing-variants__variant--accent {
+        padding: 80px 40px;
+    }
 }
