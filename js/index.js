@@ -1,7 +1,8 @@
 function init() {
     import("./header-nav.js");
-    import("./partners-generator.js");
+    import("./partners-inserter.js");
     import("./testimonials-slider.js");
+    import("./pricing-inserter.js");
 }
 
 const totalPartials = document.querySelectorAll('[hx-trigger="load"], [data-hx-trigger="load"]').length;
